@@ -3,18 +3,27 @@
 	{
 		"selected_items":
 		[
+			[
+				"o",
+				"ol	Tag"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"font",
+				"font-style"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title></title>\n</head>\n<body>\n	\n</body>\n</html>",
-			"file": "/Users/johara/Desktop/index.html",
-			"file_size": 0,
-			"file_write_time": 1505864137000000,
+			"file": "01/cookie recipe/index.html",
 			"settings":
 			{
-				"buffer_size": 113,
+				"buffer_size": 2219,
 				"line_ending": "Unix"
 			}
 		}
@@ -22,7 +31,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -47,6 +56,8 @@
 	},
 	"file_history":
 	[
+		"/Users/johara/Documents/SITES/JoeOHara/01/ga-press-release/index.html",
+		"/Users/johara/Desktop/index.html"
 	],
 	"find":
 	{
@@ -86,23 +97,22 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/johara/Desktop/index.html",
+					"file": "01/cookie recipe/index.html",
 					"settings":
 					{
-						"buffer_size": 113,
+						"buffer_size": 2219,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
+								122,
+								122
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -170,6 +180,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 190.0,
 	"status_bar_visible": true
 }
