@@ -30,13 +30,18 @@ nav {
 	font-style: italic;
 }
 
+.titles {
+	text-transform: uppercase;
+}
+
 h1 {
 	text-align: center;
 	text-transform: uppercase;
 }
 
-h3 {
+h5 {
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 img {
@@ -58,5 +63,9 @@ hr {
 p {
 	font-size: 14px;
 	line-height: 25px;
+}
+
+li {
+	line-height: 30px
 }
 
