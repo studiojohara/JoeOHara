@@ -5,6 +5,7 @@ Author: Your Name
 Developer @GA in NYC
 */
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans,300,300i,600,800);
 
 /******************************************
 /* SETUP
@@ -49,9 +50,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -61,14 +60,12 @@ body {
 
 /* Center the container */
 #container {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
   width: 100%;
   margin: auto;
-  height: 500px;
-
-}
-
-header {
-
+  height: 400px;
+  text-align: center
 }
 
 footer {
@@ -78,6 +75,73 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+h1, h2 {
+  color: white;
+}
+
+#container h1 {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+header {
+  padding: 20px;
+}
+
+#benefits {
+  color: #606161;
+  background-color: #f0efef;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  height: 400px;
+}
+
+#benefits h2 {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#footer {
+  color: white;
+  background-color: #121212;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  height: 200px;
+  text-align: center;
+}
+
+#quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+      width: 100%;
+  margin: auto;
+  height: auto;
+  text-align: center
+
+}
+
+#quote {
+  color: white;
+  padding: 50px;
+}
+
+#container button {
+  background-color: yellow;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
 
 
 

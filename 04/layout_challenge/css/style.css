@@ -1,0 +1,181 @@
+body {
+	font-family: helvetica;
+}
+
+/************ two columns floats ************/
+
+#twoColumn {
+	margin-bottom: 50px
+}
+
+#twoColumn header,
+#twoColumn section,
+#twoColumn aside,
+#twoColumn footer {
+	background-color: gray;
+	min-height: 100px;
+	/*border: 1px solid black;*/
+}
+
+#twoColumn header{
+	margin-bottom: 15px; 
+}
+
+#twoColumn footer{
+	margin-top: 15px;
+}
+
+#twoColumn section{
+	float: left;
+	width: 74%;
+	margin-right: 1%
+}
+
+#twoColumn aside{
+	width: 25%;
+	float: left;
+}
+
+#twoColumn .floats {
+	height: 1px;
+	min-height: 100px;
+}
+
+/************ two columns inline-block ************/
+
+#twoColumn2 header,
+#twoColumn2 section,
+#twoColumn2 aside,
+#twoColumn2 footer {
+	background-color: #E32626;
+	min-height: 100px;
+	/*border: 1px solid black;*/
+}
+
+#twoColumn2 header {
+	margin-bottom: 15px
+}
+
+#twoColumn2 aside,
+#twoColumn2 section {
+	display: inline-block;
+}
+
+#twoColumn2 section{
+	width: 74%;
+	margin-right: 1%
+}
+
+#twoColumn2 aside{
+	width: 25%;
+}
+
+#twoColumn2 footer{
+	margin-top: 15px;
+}
+
+
+/********* multi-column *******/
+
+#twoColumn3 header,
+#twoColumn3 section,
+#twoColumn3 aside,
+#twoColumn3 footer {
+	background-color: #2CAB53;
+	min-height: 100px;
+	/*border: 1px solid black;*/
+}
+
+#twoColumn3 header {
+	margin-bottom: 15px
+}
+
+#twoColumn3 footer{
+	margin-top: 15px;
+}
+
+.multicolumn {
+	column-count: 3;
+}
+
+/********* flex box *******/
+
+#twoColumn4 header,
+#twoColumn4 section,
+#twoColumn4 aside,
+#twoColumn4 footer {
+	background-color: #55A9D1;
+	min-height: 100px;
+	/*border: 1px solid black;*/
+}
+
+#twoColumn4 header {
+	margin-bottom: 15px
+}
+
+#twoColumn4 footer{
+	margin-top: 15px;
+}
+
+#twoColumn4 .flexbox {
+	display: flex;
+}
+
+#twoColumn4 section {
+	width: 59%;
+	margin-right: 1%;
+}
+
+#twoColumn4 aside {
+	width: 40%;
+}
+
+/********* three column with flex *******/
+
+body {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#threeColumn header,
+#threeColumn section,
+#threeColumn aside,
+#threeColumn footer {
+	background-color: #295BB8;
+	min-height: 100px;
+	/*border: 1px solid black;*/
+}
+
+#threeColumn header {
+	margin-bottom: 10px;
+}
+
+#threeColumn footer{
+	margin-top: 10px;
+}
+
+.columns {
+	display: flex;
+}
+
+aside.left {
+	width: 16%;
+	margin-right: 1%;
+}
+
+section {
+	width: 66%;
+}
+
+aside.right {
+	width: 16%;
+	margin-left: 1%
+}
+
+
+
+
+
+
+
+
