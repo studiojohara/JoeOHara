@@ -3,6 +3,9 @@ body {
 }
 
 /************ two columns floats ************/
+* {
+	box-sizing: border-box;
+}
 
 #twoColumn {
 	margin-bottom: 50px
@@ -14,7 +17,7 @@ body {
 #twoColumn footer {
 	background-color: gray;
 	min-height: 100px;
-	/*border: 1px solid black;*/
+	border: 1px solid black
 }
 
 #twoColumn header{
@@ -28,17 +31,22 @@ body {
 #twoColumn section{
 	float: left;
 	width: 74%;
-	margin-right: 1%
+	margin-right: 1%;
+	min-height: 500px;
 }
 
 #twoColumn aside{
 	width: 25%;
-	float: left;
+	margin-left: 75%;
+	min-height: 500px;
 }
 
 #twoColumn .floats {
-	height: 1px;
-	min-height: 100px;
+	overflow: hidden;
+}
+
+.multicolumn {
+	color: white;
 }
 
 /************ two columns inline-block ************/
@@ -49,7 +57,7 @@ body {
 #twoColumn2 footer {
 	background-color: #E32626;
 	min-height: 100px;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 }
 
 #twoColumn2 header {
@@ -83,7 +91,7 @@ body {
 #twoColumn3 footer {
 	background-color: #2CAB53;
 	min-height: 100px;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 }
 
 #twoColumn3 header {
@@ -106,7 +114,7 @@ body {
 #twoColumn4 footer {
 	background-color: #55A9D1;
 	min-height: 100px;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 }
 
 #twoColumn4 header {
@@ -143,7 +151,7 @@ body {
 #threeColumn footer {
 	background-color: #295BB8;
 	min-height: 100px;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 }
 
 #threeColumn header {
@@ -158,19 +166,116 @@ body {
 	display: flex;
 }
 
-aside.left {
+#threeColumn aside.left {
 	width: 16%;
 	margin-right: 1%;
+	min-height: 500px;
 }
 
-section {
+#threeColumn section {
 	width: 66%;
 }
 
-aside.right {
+#threeColumn aside.right {
 	width: 16%;
 	margin-left: 1%
 }
+
+/********* single marketing *******/
+
+body {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#singlemarket header,
+#singlemarket section,
+#singlemarket aside,
+#singlemarket footer {
+	background-color: #d6f5f5;
+	min-height: 100px;
+	border: 1px solid black;
+}
+
+#singlemarket header {
+	margin-bottom: 20px;
+}
+
+#singlemarket footer{
+	margin-top: 20px;
+}
+
+.columns {
+	display: flex;
+}
+
+#singlemarket .flexbox2 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#singlemarket aside.left {
+	width: 32%;
+	margin-right: 2%;
+	min-height: 200px;
+}
+
+#singlemarket section {
+	width: 32%;
+}
+
+#singlemarket aside.right {
+	width: 32%;
+	margin-left: 2%
+}
+
+#singlemarket section.one{
+	width: 49%;
+	min-height: 300px;
+}
+
+#singlemarket section.two{
+	width: 49%;
+	min-height: 300px;
+}
+
+/********* single marketing *******/
+
+
+/********* magazine *******/
+
+
+#magazine header,
+#magazine  section,
+#magazine  aside,
+#magazine  footer {
+	background-color: #666699;
+	min-height: 100px;
+	border: 1px solid black;
+}
+
+* {
+	box-sizing: ;
+}
+
+header #logo {
+	float: left;
+}
+
+header nav {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

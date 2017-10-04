@@ -5,7 +5,7 @@ Author: Your Name
 Developer @GA in NYC
 */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans,300,300i,600,800);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans,300,300i,600,800');
 
 /******************************************
 /* SETUP
@@ -78,6 +78,7 @@ footer {
 
 h1, h2 {
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #container h1 {
