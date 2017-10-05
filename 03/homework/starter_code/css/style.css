@@ -83,6 +83,24 @@ h1, h2 {
 
 #container h1 {
   text-align: left;
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+#container h2 {
+  padding: 40px;
+}
+
+#container button {
+  background-color: yellow;
+  padding: 10px;
+  border: 0px;
+}
+
+#footer h1 {
+  text-align: center;
+  color: yellow;
   font-weight: bolder;
   font-size: 24px;
 }
@@ -94,10 +112,9 @@ header {
 #benefits {
   color: #606161;
   background-color: #f0efef;
-  padding: 20px;
+  padding: 60px;
   width: 100%;
   margin: auto;
-  height: 400px;
 }
 
 #benefits h2 {
@@ -128,7 +145,22 @@ header {
 
 #quote {
   color: white;
-  padding: 50px;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: thin;
+  padding: 60px;
+}
+
+#signup {
+  background-color: yellow;
+  padding: 30px;
+  text-align: center;
+}
+
+#signup button {
+  background-color: navy;
+  color: white;
+  border-style: 0;
 }
 
 #container button {
