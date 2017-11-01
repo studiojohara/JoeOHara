@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  border: 1px solid black;
+  padding: 5px;
+  overflow: hidden;
+}
+
+header, footer {
+  height: auto;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  border: 2px solid black;
+  height: 170px;
+  margin-bottom: 10px;
+}
+
+.hamburgerMenu {
+  float: right;
+  width: 50px;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+.hamburgerMenu hr {
+  border: 2px solid black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.nav ul li {
+  float: left;
+  border: 1px solid black;
+  height: 50px;
+  max-width: 100px;
+  width: 100%;
+  margin-right: 10px;
+  display: none;
+}
+
+.boxContainer {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.boxes {
+  width: 100%;
+  border: 1px solid black;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.footerBoxes {
+  width: 100%;
+  border: 1px solid black;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.footerBoxes:last-child,
+.boxes:last-child {
+  margin-bottom: 0;
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+
+header, footer {
+  border: 3px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+header {
+  height: 70px;
+  overflow: hidden;
+}
+
+section {
+  border: 3px solid black;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 150px;
+  padding: 10px;
+}
+
+.nav ul li {
+  float: left;
+  border: 2px solid black;
+  height: 50px;
+  max-width: 100px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+.boxContainer {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.boxes {
+  float: left;
+  width: 23.8%;
+  border: 1px solid black;
+  height: 200px;
+  margin-right: 1.32%;
+}
+
+.footerBoxes {
+  float: left;
+  width: 32.4%;
+  margin-right: 1%;
+  border: 1px solid black;
+  height: 90px;
+}
+
+.boxes:last-child,
+.footerBoxes:last-child {
+  margin-right: 0;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/****  MEDIA QUERIES
+
+
+@media not|only mediatype and (expressions) {
+    CSS-Code;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+
+
+
+
+
+
+
+
+
+
+
