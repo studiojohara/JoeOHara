@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Course Application</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style2.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Course Application</h1>
+			</div>
+		</header>
+
+		<section id="main">
+			<div class="container">
+				<section id="register">
+					<form action="#" method="POST">
+
+					<h2>Your Contact Info</h2>
+					<div>
+						<label for="name">Your Name</label>
+						<input type="text" placeholder="First" name="firstname" id="firstName">
+						<input type="text" placeholder="Last" name="lastname" id="lastName">
+					</div>
+
+					<div>
+						<label for="phone">Phone Number</label>
+						<input type="text" name="phone" id="areacode" maxlength="3">
+						<label for="phone">-</label>
+						<input type="text" name="phone" id="firstPhone" maxlength="3">
+						<label for="phone">-</label>
+						<input type="text" name="phone" id="lastPhone" maxlength="4">
+					</div>
+
+					<div>
+						<label for="address">Address</label>
+						<input type="text" placeholder="Street Address" name="address" id="street">
+						<input type="text" placeholder="Address Line 2" name="address" id="line2">
+						<input type="text" placeholder="City" name="address" id="city">
+						<input type="text" placeholder="State" name="address" id="state">
+						<input type="text" placeholder="Postal Code" name="address" id="zip" maxlength="5">
+					</div>
+
+					<h2>Skills & Interests</h2>
+
+					<div>
+							<label for="state">Course</label>
+							<select name"state" id="state">
+								<option value="select">Select One</option>
+							</select>
+						</div>
+
+					<h2>Anything Else?</h2>
+
+					
+						
+
+						<div>
+							<label for="email">Email:</label>
+							<input type="email" placeholder="Enter Email" name="email address" id="email">
+						</div>
+
+						<div>
+							<label for="phone">Phone:</label>
+							<input type="text" placeholder="Enter Phone Number" name="phone" id="phone" maxlength="12">
+						</div>
+						
+						<div>
+							<label for="password">Password:</label>
+							<input type="password" placeholder="Enter Password" name="password" id="password">
+						</div>
+
+						<div class="noLabelWidth">
+							<span>What service are you interested in?</span>
+
+							<input type="radio" name="service" id="relaxingService">
+							<label for="relaxingService">Relaxing</label>
+
+							<input type="radio" name="service" id="relaxingService">
+							<label for="emailService">Email</label>
+
+							<input type="radio" name="service" id="relaxingService">
+							<label for="phoneService">Phone</label>
+						</div>
+
+						<div class="noLabelWidth">
+							<input type="checkbox" name="agree" id="agree">
+							<label for="agree">I agree to the terms</label>
+						</div>
+
+						<input type="submit" value="Register Now!" class="register">
+
+					</form>
+					
+				</section>
+			</div>
+		</section>
+
+	</body>
+</html>
