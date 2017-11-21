@@ -21,11 +21,10 @@
 @media (min-width: 1200px) { ... }
 */
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald:400,700|Source+Sans+Pro:400,700');
-
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -52,6 +51,7 @@ header h1 span {
 	font-size: 25px;
 	color: #7f7970;
 	text-transform: none;
+	display: none;
 }
 
 a {
@@ -68,8 +68,8 @@ a {
 
 .hamburgerMenu {
 	position: absolute;
-	right: 10px;
-	top: 10px;
+	right: 20px;
+	top: 20px;
   	width: 50px;
   	height: auto;
   	padding: 3px;
@@ -88,17 +88,19 @@ a {
     width: auto;
     margin: auto;
     overflow: hidden;
-    padding: 40px 10px;}
+    padding: 40px 10px;
+}
 
 #box1 {
     color: #ffffff;
     margin: 50px;
     text-align: center;
+	font-size: 20px;
 }
 
 #box1 img {
-	max-width: 250px;
-	max-height: 250px;
+	max-width: 300px;
+	max-height: 300px;
 	min-width: 200px;
 	min-height: 200px;
 }
@@ -109,6 +111,8 @@ a {
 	padding: 30px;
 	font-size: 15px;
 	overflow: hidden;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 }
 
 .roasting {
@@ -124,10 +128,22 @@ a {
 	font-family: 'Merriweather';
 	font-size: 20px;
 	color: #e8e8e8;
+	letter-spacing: 2px;
+}
+
+#products p {
+	background-color: #e8e8e8;
+	padding: 10px;
+	border-radius: 0px 0px 10px 10px;
 }
 
 #products {
 	padding: 30px;
+	background: url(../images/brownpaper.jpg) no-repeat center;
+    background-size: cover;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
 }
 
 #product2, #product3, #product4 {
@@ -137,47 +153,57 @@ a {
 #product1 h2{
 	background-color: #d1aa51;
 	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 
 #product2 h2{
 	background-color: #ff604e;
 	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 
 #product3 h2{
 	background-color: #58c2b1;
 	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 
 #product4 h2{
 	background-color: #3c8bca;
 	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 
-#products p {
-	padding-left: 10px;
-}
-
-form .subscribe{
-	background-color: #e8e8e8;
+form {
+	background-color: #23201f;
 	min-height: 100px;
-	padding: 50px;
+	padding: 30px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+form h2 {
+	color: #e8e8e8;
+	padding-bottom: 20px;
+}
+
+form input {
+	min-width: 300px;
+	padding: 10px;
+	margin-bottom: 20px;
 }
 
 #social {
 	background-color: #6d4e3b;
 	min-height: auto;
-	padding: 5%;
-	overflow: hidden;
+	padding: 20px;
+	text-align: center;
 }
 
-#social a {
-	border: 1px solid #ffffff;
-	border-radius: 5px;
-	height: 20px;
-	width: 20px;
-	float: left;
-	margin-right: 2%;
+#social ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
 }
 
 footer {
@@ -188,15 +214,15 @@ footer {
 	font-size: 10px;
 	border-top: 1px solid #e8e8e8;
 	box-shadow: 5px 0 0px 0 #000;
+	text-align: center;
 }
-
 
 
 /***************** desktop below *******************/
 
 
 
-@media (min-width: 768px) { 
+@media (min-width: 770px) { 
 
 
 * {
@@ -211,10 +237,25 @@ a {
 	font-size: 16px;
 	line-height: 10px;
 	float: right;
+
+}
+
+#box1 {
+	font-size: 26px;
+}
+
+header h1 span {
+	display: inline-block;
 }
 
 header nav ul li {
 	list-style: none;
+}
+
+.menu nav ul li{
+	position: absolute;
+	right: 20px;
+	top: 20px;
 }
 
 .hamburgerMenu {
@@ -226,6 +267,14 @@ header nav ul li {
 	max-height: 300px;
 }
 
+#coffeeimage {
+    background-image: url(../images/coffee.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #box1 {
     color: #ffffff;
     margin: 20px;
@@ -235,6 +284,10 @@ header nav ul li {
 #box1 img {
 	max-width: 400px;
 	max-height: 400px;
+}
+
+#products {
+	 background-attachment: fixed;
 }
 
 footer {
