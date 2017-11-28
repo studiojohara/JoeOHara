@@ -174,7 +174,7 @@ header a:active {
 }
 
 .info {
-	width: 50%;
+	width: 100%;
 }
 
 .label {
@@ -182,6 +182,7 @@ header a:active {
 	max-height: auto;
 	margin-left: 20px;
 	margin-bottom: 20px;
+	display: none;
 }
 
 #product2, #product3, #product4 {
