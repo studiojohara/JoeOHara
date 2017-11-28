@@ -35,12 +35,15 @@ header {
 	background-color: #23201f;
 	border-bottom: 1px solid #e8e8e8;
 	color: #e8e8e8;
-	overflow: hidden;
 	box-shadow: 0px 0 5px 0 #000;
 	position: fixed;
 	width: 100%;
 	z-index: 4;
 	top: 0;
+	display: -webkit-flex;
+   	display: flex;
+   	-webkit-flex-direction: column;
+   	flex-direction: column;
 }
 
 header h1 {
@@ -48,6 +51,7 @@ header h1 {
 	font-size: 18px;
 	padding: 20px 40px 20px 40px;
 	text-transform: uppercase;
+	max-width: 500px;
 }
 
 header h1 span {
@@ -159,11 +163,25 @@ header a:active {
 
 #products {
 	padding: 30px;
-	background: url(../images/brownpaper.jpg) no-repeat center;
+	background: url(../images/brownpaper2.jpg) no-repeat center;
     background-size: cover;
     width: auto;
     margin: auto;
-    overflow: hidden;
+    display: -webkit-flex;
+   	display: flex;
+   	-webkit-flex-direction: column;
+   	flex-direction: column;
+}
+
+.info {
+	width: 50%;
+}
+
+.label {
+	width: 100%;
+	max-height: auto;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 #product2, #product3, #product4 {
@@ -270,32 +288,48 @@ footer {
 	padding: 0;
 }
 
-a {
-	text-decoration: none;
-	color: #e8e8e8;
-	padding: 45px;
-	font-size: 16px;
-	line-height: 10px;
-	float: right;
-
+header {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
 }
 
-#box1 {
-	font-size: 26px;
+nav ul li {
+	list-style: none;
+	text-decoration: none;
+	color: #e8e8e8;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.logo {
+   -webkit-flex: 1 0 0;
+   flex: 1 0 0;
+}
+
+.menu {
+   -webkit-flex: 2 0 0;
+   flex: 2 0 0;
+}
+
+.link {
+	display: inline-block;
+	-webkit-justify-content: flex-end;
+   justify-content: flex-end;
+}
+
+header h1 {
+	min-width: 50%;
+	margin-right: 5%;
 }
 
 header h1 span {
 	display: inline-block;
 }
 
-header nav ul li {
-	list-style: none;
-}
-
-.menu nav ul li{
-	position: absolute;
-	right: 20px;
-	top: 20px;
+#box1 {
+	font-size: 26px;
 }
 
 .hamburgerMenu {
@@ -305,6 +339,25 @@ header nav ul li {
 .roasting {
 	max-width: 300px;
 	max-height: 300px;
+}
+
+#products {
+	overflow: hidden;
+}
+
+.info {
+	float: left;
+	width: 73%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.label {
+	float: right;
+	width: 25%;
+	height: auto;
+	margin-left: 2%;
+	margin-bottom: 20px;
 }
 
 #coffeeimage {
